@@ -486,11 +486,11 @@ address {
 
 .footer-social-title {
     font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--color, #ffffff);
-        margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color, #ffffff);
+    margin-bottom: 16px;
 }
 
 .footer-social-item {
@@ -525,6 +525,46 @@ address {
 .footer-social-link:hover,
 .footer-social-link:focus {
     background-color: #31d0aa;
+}
+
+/*-----Third part-----*/
+
+.footer-subscribe {
+    margin-left: 80px;
+}
+
+.subscribe-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--color, #ffffff);
+    margin-bottom: 16px;
+}
+
+.subscribe-input {
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    padding: 8px 16px;
+    margin-right: 24px;
+    background-color: transparent;
+
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+} 
+
+.subscribe-input::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: var(--white);
+
 }
 
 /*===================================================*/
