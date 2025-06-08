@@ -731,17 +731,16 @@ address {
     margin-bottom: 16px
 }
 
-.modal-input-wrapper:focus-within {
+.modal-input:focus {
     border-color: #4D5AE5;
 }
 
 .modal-input-wrapper:focus-within .modal-backdrop-icon {
-    fill: #4d5ae5;
+    fill: #4D5AE5;
 }
 
 .modal-backdrop-icon {
-    margin-right: 4px;
-    flex-shrink: 0;
+
     width: 18px;
     height: 24px;
     fill: #2e2f42;
@@ -750,6 +749,7 @@ address {
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 
 }
 
@@ -764,10 +764,13 @@ address {
     line-height: 1.17;
     letter-spacing: 0.04em;
     background-color: transparent;
-    font-size: 16px;
-    color: #2e2f42;
+    outline: transparent;
+    /*font-size: 16px;*/
+    color: rgba(46, 47, 66, 0.4);
     outline: none;
     transition: border-color 250ms ease, box-shadow 250ms ease;
+    font-size: 12px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-textarea:focus {
@@ -816,9 +819,7 @@ align-items: center;
 justify-content: center;
 fill: transparent;
 cursor: pointer;
-background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                  border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                  fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .terms:active{
