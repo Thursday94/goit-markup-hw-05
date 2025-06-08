@@ -704,27 +704,35 @@ address {
 
 .modal-input {
     border: none;
-    outline: none;
     flex-grow: 1;
     font-size: 16px;
     line-height: 1.5;
     color: #2e2f42;
     background-color: transparent;
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    padding-left: 38px;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input-wrapper {
     display: flex;
     align-items: center;
-    border: 1px solid rgba(46, 47, 66, 0.4);
-    border-radius: 4px;
-    padding: 8px 16px;
-    margin-top: 4px;
+    /*border: 1px solid rgba(46, 47, 66, 0.4);
     height: 40px;
-    transition: border-color 250ms ease, box-shadow 250ms ease;
+    border-radius: 4px;
+    transition: border-color 250ms ease, box-shadow 250ms ease;*/
+    padding: 8px 16px;
+    margin-top: 4px; 
+    position: relative;
+    margin-bottom: 16px
 }
 
 .modal-input-wrapper:focus-within {
-    border-color: #4d5ae5;
+    border-color: #4D5AE5;
 }
 
 .modal-input-wrapper:focus-within .modal-backdrop-icon {
@@ -737,6 +745,12 @@ address {
     width: 18px;
     height: 24px;
     fill: #2e2f42;
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .modal-textarea {
@@ -747,6 +761,8 @@ address {
     height: 120px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
     background-color: transparent;
     font-size: 16px;
     color: #2e2f42;
@@ -767,6 +783,7 @@ address {
 
 .modal-checkbox {
     margin-top: 16px;
+    margin-bottom: 24px;
 }
 
 .checkbox-input:checked + .checkbox-label .terms {
