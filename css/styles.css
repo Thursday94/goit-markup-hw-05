@@ -530,6 +530,7 @@ address {
 .subscribe-form {
     display: flex;
     align-items: center;
+    gap: 24px;
 }
 
 .footer-subscribe {
@@ -552,7 +553,7 @@ address {
     height: 40px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     padding: 8px 16px;
-    gap: 24px;
+    /*gap: 24px;*/
     background-color: transparent;
     font-weight: 400;
     font-size: 12px;
@@ -686,6 +687,11 @@ address {
     margin-bottom: 16px;
 }
 
+.modal-field {
+    margin-bottom: 8px;
+
+}
+
 .modal-label {
     display: block;
     font-weight: 400;
@@ -693,7 +699,7 @@ address {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
 }
 
 .modal-input {
