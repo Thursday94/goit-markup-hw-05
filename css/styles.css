@@ -689,7 +689,10 @@ address {
 
 .modal-field {
     margin-bottom: 8px;
+}
 
+.modal-field-comment {
+    margin-bottom: 16px;
 }
 
 .modal-label {
@@ -700,6 +703,7 @@ address {
     letter-spacing: 0.04em;
     color: #8e8f99;
     margin-bottom: 4px;
+
 }
 
 .modal-input {
@@ -725,7 +729,7 @@ address {
     height: 40px;
     border-radius: 4px;
     transition: border-color 250ms ease, box-shadow 250ms ease;*/
-    margin-top: 4px; 
+    /*margin-top: 4px;*/ 
     position: relative;
     margin-bottom: 8px;
 }
@@ -753,7 +757,6 @@ address {
 }
 
 .modal-textarea {
-    margin-top: 4px;
     resize: none;
     padding: 8px 16px;
     width: 100%;
@@ -782,7 +785,7 @@ address {
 }
 
 .modal-checkbox {
-    margin-top: 16px;
+    /*margin-top: 16px;*/
     margin-bottom: 24px;
 }
 
@@ -806,12 +809,12 @@ address {
 }
 
 .terms {
+display: inline-flex;
 width: 16px;
 height: 16px;
 border-radius: 2px;
 border: 1px solid rgba(46, 47, 66, 0.4);
 margin-right: 8px;
-display: inline-flex;
 align-items: center;
 justify-content: center;
 fill: transparent;
