@@ -688,7 +688,7 @@ address {
 }
 
 .modal-field {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 
 }
 
@@ -727,7 +727,7 @@ address {
     transition: border-color 250ms ease, box-shadow 250ms ease;*/
     margin-top: 4px; 
     position: relative;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .modal-input:focus {
@@ -762,11 +762,10 @@ address {
     border-radius: 4px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    /*background-color: transparent;*/
+    background-color: transparent;
     outline: transparent;
     color: rgba(46, 47, 66, 0.4);
-    outline: none;
-    transition: border-color 250ms ease, box-shadow 250ms ease;
+    /*transition: border-color 250ms ease, box-shadow 250ms ease;*/
     font-size: 12px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
