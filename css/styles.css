@@ -725,11 +725,6 @@ address {
 .modal-input-wrapper {
     display: flex;
     align-items: center;
-    /*border: 1px solid rgba(46, 47, 66, 0.4);
-    height: 40px;
-    border-radius: 4px;
-    transition: border-color 250ms ease, box-shadow 250ms ease;*/
-    /*margin-top: 4px;*/ 
     position: relative;
     margin-bottom: 8px;
 }
@@ -743,7 +738,6 @@ address {
 }
 
 .modal-backdrop-icon {
-
     width: 18px;
     height: 24px;
     fill: #2e2f42;
@@ -751,9 +745,7 @@ address {
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
-
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);   
 }
 
 .modal-textarea {
@@ -768,7 +760,6 @@ address {
     background-color: transparent;
     outline: transparent;
     color: rgba(46, 47, 66, 0.4);
-    /*transition: border-color 250ms ease, box-shadow 250ms ease;*/
     font-size: 12px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -785,7 +776,6 @@ address {
 }
 
 .modal-checkbox {
-    /*margin-top: 16px;*/
     margin-bottom: 24px;
 }
 
@@ -804,7 +794,6 @@ address {
     display: flex;
     align-items: center;
     margin-bottom: 24px;
-
     line-height: 1.17;
 }
 
@@ -822,7 +811,7 @@ cursor: pointer;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.terms:active{
+.terms:active {
     background-color: #404bbf;
 }
 .privacy {
